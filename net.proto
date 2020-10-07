@@ -2,6 +2,8 @@ syntax = "proto3";
 package net;
 
 option go_package = "github.com/hashstore/hashlogic/net;net";
+option java_package = "com.gitlab.hashstore.logic.pb";
+option java_multiple_files = true;
 
 import "base.proto";
 
